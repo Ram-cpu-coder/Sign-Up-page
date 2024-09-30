@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style-signup.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>SIGNUP FORM</h1>
+            <hr>
+            <form action="https://www.google.com" method="post">
+                <div class="input-area">
+                    <div class="firstname">
+                        <label for="first-name"><span id="star-req">*</span>First Name</label>
+                        <input type="text" name="First-name" id="first-name" required>
+                    </div>
+
+                    <div class="lastname">
+                        <label for="last-name"><span id="star-req">*</span>Last Name</label>
+                        <input type="text" name="Last-name" id="last-name" required>
+                    </div>
+
+                    <div class="email">
+                        <label for="email"><span id="star-req">*</span>Email</label>
+                        <input type="email" name="Email" id="email" required>
+                    </div>
+
+                    <div class="password">
+                        <label for="password"> <span id="star-req">*</span>Password (6 or more characters)</label>
+                        <input type="password" name="Password" id="password" required>
+                    </div>
+
+                    <div class="agreement">
+                        <input type="checkbox" name="Agreement" id="agreement" required>
+                        <p> <span id="star-req">*</span> By checking this button, you agree to our company's <a
+                                href="https://instapage.com/terms-of-service">Anti-spam Policy & Terms of Use</a></p>
+                    </div>
+
+                    <div class="ad">
+                        <input type="checkbox" name="ad" id="advertisements">
+                        <p>I would like to receive updates, tips and offers via email.</a></p>
+                        
+                    </div>
+
+                    <button class="button">
+                        SIGN UP
+                    </button>
+                </div>
+
+                <div class="member-already">
+                    <p>Already a member? <a href="./index.html">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

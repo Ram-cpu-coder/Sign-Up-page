@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: auto;
+    height: 900px;
+
+    background: url(./bg-login.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    backdrop-filter: blur(9px);
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+.wrapper {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 50%;
+    padding: 30px;
+
+}
+
+.login-page {
+    border: 0.5px solid black;
+    border-radius: 20px 0 0 20px;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 50%;
+    padding: 30px;
+
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons>a{
+    text-decoration: none;
+    color: black;
+}
+
+.social-icons>a>i{
+    transition: transform 0.02s ease-in-out;
+}
+
+.social-icons>a>i:hover{
+    transform: scale(1.2);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: auto; */
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+
+    margin-bottom: 10px;
+}
+.input-area input{
+    height: 35px;
+    background: #dcddde;
+    border: none;
+    border-radius: 10px;
+    backdrop-filter: blur(9px);
+    
+    box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.6);
+}
+
+.btn-sign{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background: A2D2FF;
+    border-radius: 10px;
+    width: 90%;
+    height: 25px;
+    margin-top:10px;
+    cursor: pointer;
+    box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.6);
+
+    transition: transform 0.02s ease-in-out;
+}
+
+.button:hover{
+    transform: translateY(-2px);
+    background: #cce0fc;
+}
+.button>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.welcome-message {
+    border: 0.5px solid black;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 50%;
+
+    padding: 30px;
+
+    
+    background:     rgba(242, 202, 220, 0.6);
+
+}
