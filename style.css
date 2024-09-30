@@ -63,6 +63,9 @@ body{
     width: 100%;
     margin-bottom: 10px;
 }
+.head h1{
+    font-size: 35px;
+}
 .social-icons{
     display: flex;
     align-items: center;
@@ -96,12 +99,15 @@ body{
 
     margin-bottom: 10px;
 }
+
 .input-area input{
     height: 35px;
     background: #dcddde;
     border: none;
     border-radius: 10px;
     backdrop-filter: blur(9px);
+
+    padding: 15px;
     
     box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.6);
 }
@@ -123,6 +129,7 @@ body{
     transition: transform 0.02s ease-in-out;
 }
 
+
 .button:hover{
     transform: translateY(-2px);
     background: #cce0fc;
@@ -130,8 +137,8 @@ body{
 .button>a{
     text-decoration: none;
     color: black;
+   
 }
-
 
 .welcome-message {
     border: 0.5px solid black;
@@ -152,3 +159,8 @@ body{
 
 .welcome-message:hover{
     flex-grow: 2;
+}
+
+.welcome-message h1{
+    font-size: 35px;
+}
