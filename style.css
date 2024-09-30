@@ -32,8 +32,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
-    width: 50%;
+    height: 100vh;
+    width: 60%;
     padding: 30px;
 
 }
@@ -46,11 +46,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 50%;
+    height: 60%;
+    width: 45%;
     padding: 30px;
 
     background: rgba(0, 0, 0, 0.2);
+}
+.login-page:hover{
+    flex-grow: 2;
 }
 
 .head {
@@ -137,8 +140,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 50%;
+    height: 60%;
+    width: 40%;
 
     padding: 30px;
 
@@ -146,3 +149,6 @@ body{
     background:     rgba(242, 202, 220, 0.6);
 
 }
+
+.welcome-message:hover{
+    flex-grow: 2;
